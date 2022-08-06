@@ -1,0 +1,13 @@
+main: x.KenKOfficial.BanGUI.Basic.Main
+version: 1.0-Beta
+name: xKenBanGUI
+author: xKenKOfficial
+description: Plugin Autorstwa KenKOfficial
+website: https://discord.gg/2HDuZrEFTg
+
+commands:
+  bangui:
+    aliases: [ban-gui]
+  unban:
+  unbanip:
+    aliases: [unban-ip, pardon-ip, pardonip]

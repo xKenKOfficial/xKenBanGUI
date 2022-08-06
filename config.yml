@@ -1,0 +1,81 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenBanGUI"
+
+# Tutaj mozna ustawic wiadomosc o braku permisji:
+no_permission: "&8>> &cNie masz dostepu do tej komendy!"
+
+# Tutaj mozna ustawic wiadomosc, jesli przekroczona zostala ilosc argumentow w komendzie:
+wrong_args: "&8>> &cZa duza ilosc argumentow!"
+
+# Tutaj mozna ustawic wiadomosc, jesli dany gracz nie jest online:
+offline_player: "&8>> &cTen gracz nie jest online!"
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /bangui:
+bangui_command_usage: "&8>> &7Poprawne uzycie&8: &b/bangui (nick)"
+
+# Tutaj mozna ustawic wiadomosc, jesli dany gracz/administrator nie posiada permisji do bana, tempbana i kicka:
+bangui_no_permission_usage: "&8>> &cNie masz na tyle permisji, aby to wykonac."
+
+# Tutaj mozna ustawic wiadomosc, jesli zbanowano gracza offline:
+bangui_ban_offline_player: "&8>> &cZbanowano gracza offline!"
+
+# Tutaj mozna ustawic wiadomosc do wszystkich graczy, jesli zbanowano gracza:
+bangui_ban_broadcast_message: "&8>> &7Gracz &b{GRACZ} &7zostal zbanowany przez administratora &3{ADMIN} &7za&8: &c{POWOD}"
+
+# Tutaj mozna ustawic wiadomosc do wszystkich graczy, jesli zbanowano tymczasowo gracza:
+bangui_tempban_broadcast_message: "&8>> &7Gracz &b{GRACZ} &7zostal zbanowany do dnia &c{DATA} &7przez administratora &3{ADMIN} &7za&8: &c{POWOD}"
+
+# Tutaj mozna ustawic wiadomosc kick, jesli ip gracza zostalo zbanowane:
+bangui_banip_kick_player: "&7Twoje IP zostalo zbanowane za&8: &b{POWOD}"
+
+# Tutaj mozna ustawic wiadomosc, jesli administrator zbanowal IP jakiegos gracza:
+bangui_banip_admin_message: "&8>> &7Pomyslnie zbanowano IP&8: &b{IP}&7."
+
+# Tutaj mozna ustawic wiadomosc do administratorow, jesli IP zostalo zbanowane przez administratora:
+bangui_banip_admins_message: "&8>> &7Administrator &b{ADMIN} &7zbanowal IP&8: &3{IP}"
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /unban:
+bangui_unban_command_usage: "&8>> &7Poprawne uzycie&8: &b/unban (nick)"
+
+# Tutaj mozna ustawic wiadomosc, jesli gracz nie jest zbanowany:
+bangui_unban_player_not_banned: "&8>> &cTen gracz nie jest zbanowany!"
+
+# Tutaj mozna ustawic wiadomosc, jesli gracz zostal odbanowany:
+bangui_unban_broadcast_message: "&8>> &7Odbanowano gracza&8: &b{GRACZ}&7."
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /unbanip:
+bangui_unbanip_command_usage: "&8>> &7Poprawne uzycie&8: &b/unbanip (ip)"
+
+# Tutaj mozna ustawic wiadomosc, jesli zle podane zostalo IP lub jesli nie jest zbanowane:
+bangui_unbanip_wrong_ip: "&8>> &cAdres IP nie zgadza sie!"
+
+# Tutaj mozna ustawic wiadomosc, jesli odbanowano dane IP:
+bangui_unbanip_unbanned_ip: "&8>> &7Pomyslnie odbanowano IP&8: &b{IP}&7."
+
+# Tutaj mozna ustawic wiadomosc kick, jesli gracz zostal wyrzucony z serwera:
+bangui_kick_player_reason: "&7Zostales wyrzucony z serwera za&8:\n&c{POWOD}"
+
+# Tutaj mozna ustawic wiadomosc kick, jesli gracz zostal zbanowany:
+bangui_liststring:
+  ban:
+    - '&8&l&m----------[&c&lZBANOWANY&8&l&m]----------'
+    - '&8>> &7Zostales zbanowany przez&8: &b{ADMIN}'
+    - '&8>> &7Powod bana&8: &b{POWOD}'
+    - '&8>> &7Typ bana&8: &c&lPERNAMENTNY'
+    - '&8&l&m----------[&c&lZBANOWANY&8&l&m]----------'
+  tempban:
+    - '&8&l&m----------[&c&lZBANOWANY&8&l&m]----------'
+    - '&8>> &7Zostales zbanowany przez&8: &b{ADMIN}'
+    - '&8>> &7Zbanowany do dnia&8: &b{DATA}'
+    - '&8>> &7Powod bana&8: &b{POWOD}'
+    - '&8>> &7Typ bana&8: &c&lTYMCZASOWY'
+    - '&8&l&m----------[&c&lZBANOWANY&8&l&m]----------'
+  ban_ip:
+    - '&8&l&m----------[&c&lZBANOWANY&8&l&m]----------'
+    - '&8>> &7Zostales zbanowany przez&8: &b{ADMIN}'
+    - '&8>> &7Powod bana&8: &b{POWOD}'
+    - '&8>> &7Typ bana&8: &c&lBAN-IP'
+    - '&8&l&m----------[&c&lZBANOWANY&8&l&m]----------'
+
+# Tutaj mozna wlaczyc i wylaczyc informacje o pluginie:
+plugin_info: true
